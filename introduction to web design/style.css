@@ -1,110 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: red;
-}
-h1{
-    position: fixed;
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+	height: 100vh;
 }
 
-ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 25px;
-}
-ul li {
-    display: inline-block;
-    padding:  5px 10px;
-    border: solid;
-}
-ul li a{
-    text-decoration-line: none;
-    text-decoration: none;
-    color: black;
-    padding: 5px 20px;
-    
-    transition: 0.10s ease;
-}
-    ul li a:hover{
-        background-color: blue;
-        color: whitesmoke;
-    }
-.title{
-    /* position: absolute; */
-    /* top: 10%;
-    left: 50%;
-    transform: translate(-50%,50%); */
-    border: green dotted;
-    
-   
-    
-
-    
-}
-.main{
-    
-
-
+p{
+	border-radius: 6px;
+	-webkit-transition: transform 0.6s;
+	-o-transition: transform 0.6s;
+	transition: transform 0.6s;
+	margin-bottom: 30px;
+	border: 6px solid #513e5c;
+	width: 220px;
+	color: white;
+}	
+	
+p:hover{
+	-webkit-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	transform: scale(1.25);
 }
 
+
+
+
+ul {
+	
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkslategray;
+}
+
+li {
+  float: left;
   
-.main1, .main2, .main3,  .main4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px;
 }
 
-
-.main2 {
-    flex-direction: row-reverse;
+li a {
+  display: block;
+  color: black;
+  text-align: center ;
+  padding: 20px 10px;
+  text-decoration: none;
+  margin-left: 55px;
+  
 }
 
-.main4 {
-    flex-direction: row-reverse;
+li a:hover:not(.active) {
+  background-color: #513e5c;
 }
 
-img, p {
-    width: 48%;
+.active {
+  background-color: #a9bcc6;
+}
+.brand{
+	width: 200px;
+	text-align: center;
+	margin-left: 200px;
 }
 
- .some{
-     display: inline-block;
-     position: absolute;
-     text-decoration: none;
-     text-decoration-line: none;
-     color: black;
- }   
-
-
-    
-    
-
-
-.some1, .some2, .some3{
-    border: black double 3px;
-    padding: 5px 10px;
-    display: center;
-    justify-content: space-between;
-    margin-top: 20px;
-    text-decoration: none;
-    text-decoration-line: none;
-    transition: 0.10s ease;
-    
-
-
-
-    
-    
 }
 
+	
+.footer{
+	text-align: center;
+	color: whitesmoke;
+	font-family: fantasy;
+	font-size: 20px;
 
+}
 
- 
-    
+h1{
+	color: white;
+	text-shadow:0 3px 3px rgba(0,0,0,0.5) ;
+}
+header h2{
+	text-align: center;
+	font-size: 50px;
+	color: forestgreen;
+	text-shadow: 0 3px 3px rgba(0,0,0,0.5) ;
 
-
-
-
-
-
+	
+	
+}
+h3{
+	font-family: monospace;
+	color: honeydew;
+	text-align: center;
+	
+}
